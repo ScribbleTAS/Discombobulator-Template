@@ -4,6 +4,10 @@ plugins {
 
 apply from: "../common.gradle"
 
+java {
+	sourceCompatibility = targetCompatibility = 8
+}
+
 dependencies {
 	minecraft "com.mojang:minecraft:1.14.4"
 	mappings loom.officialMojangMappings()
