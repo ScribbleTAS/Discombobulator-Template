@@ -5,6 +5,6 @@ plugins {
 apply from: "../common.gradle"
 
 dependencies {
-	minecraft "com.mojang:minecraft:1.10.2"
-	mappings "net.legacyfabric:yarn:1.10.2+build.mcp"
+	minecraft "com.mojang:minecraft:1.20.6"
+	mappings loom.officialMojangMappings()
 }

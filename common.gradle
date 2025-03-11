@@ -1,9 +1,5 @@
 java {
-	sourceCompatibility = targetCompatibility = 1.8
-}
-
-repositories {
-	maven { url = "https://raw.githubusercontent.com/BleachDev/cursed-mappings/main/" }
+	sourceCompatibility = targetCompatibility = 23
 }
 
 base { 
