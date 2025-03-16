@@ -8,7 +8,6 @@ java {
 	sourceCompatibility = targetCompatibility = 8
 }
 
-dependencies {
-	minecraft "com.mojang:minecraft:1.16.5"
-	mappings loom.officialMojangMappings()
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 8
 }

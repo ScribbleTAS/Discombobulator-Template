@@ -3,8 +3,3 @@ plugins {
 }
 
 apply from: "../common.gradle"
-
-dependencies {
-	minecraft "com.mojang:minecraft:1.21.4"
-	mappings loom.officialMojangMappings()
-}
